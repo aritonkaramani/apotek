@@ -5,7 +5,7 @@
         <v-col cols="10">
           <v-row justify="center">
             <v-col cols="12" sm="5">
-              <h1 class="font-weight-light display-1">Contate-nos</h1>
+              <h1 class="font-weight-light display-1">Kontakta oss</h1>
               <h3 class="font-weight-light mt-3">
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste
                 explicabo commodi quisquam asperiores dolore ad enim provident
@@ -15,7 +15,7 @@
                 Lorem ipsum dolor sit amet consectetur adipisicing.
               </h3>
               <h3 class="font-weight-light mt-3">
-                Telefone: +xx (xx) xxxxx-xxxx
+                Telefon: +xx (xx) xxxxx-xxxx
               </h3>
               <h3 class="font-weight-light">
                 Email: email@email.com
@@ -26,7 +26,7 @@
                 <v-text-field
                     v-model="name"
                     :rules="nameRules"
-                    label="Nome"
+                    label="Namn"
                     required
                 ></v-text-field>
 
@@ -40,7 +40,7 @@
                 <v-textarea
                     v-model="textArea"
                     :rules="textAreaRules"
-                    label="Mensagem"
+                    label="Meddelande"
                     required
                 />
 
@@ -53,7 +53,7 @@
                     class="mt-3"
                     @click="submit"
                 >
-                  Enviar
+                  Submit
                 </v-btn>
               </v-form>
             </v-col>
@@ -103,7 +103,6 @@
 </style>
 
 <script>
-// import {db} from '@/main'
 
 export default {
   data: () => ({
@@ -111,18 +110,18 @@ export default {
     valid: true,
     name: "",
     nameRules: [
-      (v) => !!v || "O campo nome é obrigatório",
-      (v) => (v && v.length >= 6) || "O nome precisa ter mais de 6 caracteres",
+      (v) => !!v || "You need to submit a name",
+      (v) => (v && v.length >= 6) || "Atleast 6 characters",
     ],
     email: "",
     emailRules: [
-      (v) => !!v || "O campo email é obrigatório",
-      (v) => /.+@.+\..+/.test(v) || "O E-mail precisa ser válido",
+      (v) => !!v || "You need to submit an email",
+      (v) => /.+@.+\..+/.test(v) || "Email is not a valid format",
     ],
     textArea: "",
     textAreaRules: [
-      (v) => !!v || "O campo de texto é obrigatório",
-      (v) => (v && v.length >= 10) || "Mínimo de 10 caracteres",
+      (v) => !!v || "You need to submit a message",
+      (v) => (v && v.length >= 10) || "You need a minimum of 10 characters.",
     ],
     lazy: false,
     snackbar: {
@@ -133,19 +132,7 @@ export default {
   }),
   methods: {
     submit() {
-      /*db.collection("contactData").add({
-        name: this.name,
-        email: this.email,
-        message: this.textArea
-      }).then(() => {
-        this.snackbar.text = "Mensagem enviada com sucesso"
-        this.snackbar.color = "success"
-        this.snackbar.enabled = true
-      }).catch(() => {
-        this.snackbar.text = "Erro ao enviar mensagem"
-        this.snackbar.color = "danger"
-        this.snackbar.enabled = true
-      })*/
+
     }
   }
 };

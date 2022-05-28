@@ -4,7 +4,7 @@
       <v-row align="center" justify="center">
         <v-col cols="10">
           <v-card style="width: 100%">
-            <h1 class="text-center pt-6 font-weight-light display-2">Planos</h1>
+            <h1 class="text-center pt-6 font-weight-light display-2">Här kan vi visa tabeller eller vad fan du vill</h1>
             <v-divider class="my-6"></v-divider>
             <v-row class="text-center">
               <v-col class="col-12 col-sm-6 col-md-4">
@@ -17,15 +17,15 @@
                         </div>
                       </div>
                     </div>
-                    <div class="text--disabled text-uppercase text-h5 my-2">Básico</div>
+                    <div class="text--disabled text-uppercase text-h5 my-2">Här kan vi ha kontakt info för privatpersoner</div>
                     <v-divider class="my-2"/>
-                    <div class="text-uppercase blue--text">Domínios personalizados</div>
+                    <div class="text-uppercase blue--text">lorem</div>
                     <v-divider class="my-2"/>
-                    <div class="text-uppercase blue--text">Limite de 1000 acessos diários</div>
+                    <div class="text-uppercase blue--text">lorem</div>
                     <v-divider class="my-2"/>
-                    <div class="text-uppercase blue--text">Outras características...</div>
+                    <div class="text-uppercase blue--text">lorem</div>
                     <v-divider class="my-2"/>
-                    <div class="text-uppercase text-h4 mt-6 blue--text">R$ 20,00</div>
+                    <div class="text-uppercase text-h4 mt-6 blue--text">pris</div>
                     <v-btn
                         v-bind="size"
                         rounded
@@ -33,7 +33,7 @@
                         color="blue"
                         class="mt-6"
                     >
-                      Comece Agora!
+                      HEJSAN
                     </v-btn>
                   </v-card-text>
                   <v-divider style="margin-right: -23px" vertical v-if="this.$vuetify.breakpoint.smAndUp"></v-divider>
@@ -50,15 +50,15 @@
                         </div>
                       </div>
                     </div>
-                    <div class="text--disabled text-uppercase text-h5 my-2">Padrão</div>
+                    <div class="text--disabled text-uppercase text-h5 my-2">Kontakt för företag kanske?</div>
                     <v-divider class="my-2"/>
-                    <div class="text-uppercase blue--text">Domínios personalizados</div>
+                    <div class="text-uppercase blue--text">Jag bajsar pa mig</div>
                     <v-divider class="my-2"/>
-                    <div class="text-uppercase blue--text">Limite de 10000 acessos diários</div>
+                    <div class="text-uppercase blue--text">Text</div>
                     <v-divider class="my-2"/>
-                    <div class="text-uppercase blue--text">Outras características...</div>
+                    <div class="text-uppercase blue--text">Text2</div>
                     <v-divider class="my-2"/>
-                    <div class="text-uppercase text-h4 mt-6 blue--text">R$ 100,00</div>
+                    <div class="text-uppercase text-h4 mt-6 blue--text">Priss</div>
                     <v-btn
                         v-bind="size"
                         rounded
@@ -66,7 +66,7 @@
                         color="blue"
                         class="mt-6"
                     >
-                      Comece Agora!
+                      KLICKA HÄR
                     </v-btn>
                   </v-card-text>
                   <v-divider style="margin-right: -23px" vertical v-if="this.$vuetify.breakpoint.mdAndUp"></v-divider>
@@ -85,15 +85,15 @@
                         </div>
                       </div>
                     </div>
-                    <div class="text--disabled text-uppercase text-h5 my-2">Empresarial</div>
+                    <div class="text--disabled text-uppercase text-h5 my-2">Butik 1</div>
                     <v-divider class="my-2"/>
-                    <div class="text-uppercase blue--text">Domínios personalizados</div>
+                    <div class="text-uppercase blue--text">Info</div>
                     <v-divider class="my-2"/>
-                    <div class="text-uppercase blue--text">Acessos ilimitados</div>
+                    <div class="text-uppercase blue--text">Pris</div>
                     <v-divider class="my-2"/>
-                    <div class="text-uppercase blue--text">Outras características...</div>
+                    <div class="text-uppercase blue--text">Pris</div>
                     <v-divider class="my-2"/>
-                    <div class="text-uppercase text-h4 mt-6 blue--text">R$ 500,00</div>
+                    <div class="text-uppercase text-h4 mt-6 blue--text">Pris</div>
                     <v-btn
                         v-bind="size"
                         rounded
@@ -101,7 +101,7 @@
                         color="blue"
                         class="mt-6"
                     >
-                      Comece Agora!
+                      Klicka här igen
                     </v-btn>
                   </v-card-text>
                 </div>
